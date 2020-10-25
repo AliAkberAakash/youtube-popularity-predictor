@@ -49,15 +49,17 @@ class _HomePageState extends State<HomePage> {
                   hintText: 'Enter youtube video link or id',
                 ),
               ),
-
+              SizedBox(
+                height: 10,
+              ),
               MaterialButton(
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
                 elevation: 5.0,
-                minWidth: 200.0,
+                minWidth: 300.0,
                 height: 35,
                 color: primary,
                 child: new Text('Find',
-                    style: new TextStyle(fontSize: 16.0, color: Colors.white)),
+                    style: new TextStyle(fontSize: 16.0, color: white)),
                 onPressed: () {
                   setState(() {
 
